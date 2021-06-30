@@ -32,7 +32,7 @@ rabbit.addImage(rabbitImg);
   leaf=createSprite(random(400,10),40,10,10) ;
 leaf.addImage(leafImg);  
  leaf.scale=0.1; 
-  leaf.lifetime=50;
+
   leaf.velocityY=3;                      
 }                      
   
@@ -41,7 +41,7 @@ apple=createSprite(random(350,50),40,15,15);
 apple.addImage(appleImg);  
 apple.scale=0.1;  
 apple.velocityY=3;
-apple.lifetime=50;
+
 
 }  
   
@@ -49,7 +49,7 @@ function createRleaves(){
 Rleaf=createSprite(random(350,20),60,40,10); 
  Rleaf.addImage(RleafImg); 
 Rleaf.scale=0.1 
-Rleaf.lifetime=50;
+
 Rleaf.velocityY=3;
 
 }
